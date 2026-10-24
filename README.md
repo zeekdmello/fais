@@ -185,3 +185,4 @@ See `docs/VERIFICATION.md`, `docs/API.md`, `docs/DEMO-AND-VIVA.md`, and `docs/sc
 Visual inspiration: [MyTurn website](https://myturn.kr/) and [Google Play listing](https://play.google.com/store/apps/details?id=kr.cheesebear.routineapptwo), plus the supplied purple task reference for priorities. No reference logos, characters, screenshots, awards, or badges are embedded in the app. All routine/plant/vehicle SVG illustrations in `Art.jsx` are original project assets. Lucide icons use the ISC license. DM Sans and Manrope via Google Fonts use the SIL Open Font License. Dependency licenses remain with their respective packages.
 
 Official references: [MongoDB](https://www.mongodb.com/docs/), [Mongoose](https://mongoosejs.com/docs/), [Express](https://expressjs.com/), [React](https://react.dev/), [Node.js](https://nodejs.org/docs/latest-v24.x/api/), [Vite](https://vite.dev/guide/), [Luxon](https://moment.github.io/luxon/).
+# fais
