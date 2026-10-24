@@ -1,0 +1,27 @@
+{
+  "name": "fais",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=24.14.0 <25"
+  },
+  "scripts": {
+    "setup": "npm install",
+    "dev": "concurrently -k -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend",
+    "test": "npm test -w backend && npm test -w frontend",
+    "seed": "npm run seed -w backend",
+    "format": "prettier --write frontend/src backend/src backend/tests frontend/tests backend/scripts scripts package.json frontend/package.json backend/package.json frontend/vite.config.js",
+    "test:browser": "node scripts/browser-check.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "concurrently": "^9.2.1",
+    "prettier": "^3.9.10"
+  }
+}

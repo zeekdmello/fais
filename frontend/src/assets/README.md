@@ -1,0 +1,1 @@
+Original reusable SVG illustrations live in ../components/Art.jsx to allow theme-aware colors and accessible markup. The favicon is in ../../public/favicon.svg. No reference screenshots or third-party characters are used as UI assets.

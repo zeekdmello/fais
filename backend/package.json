@@ -1,0 +1,23 @@
+{
+  "name": "fais-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env src/server.js",
+    "start": "node --env-file=.env src/server.js",
+    "seed": "node --env-file=.env scripts/seed.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "luxon": "^3.7.2",
+    "mongoose": "^9.0.0"
+  }
+}
